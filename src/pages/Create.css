@@ -1,0 +1,38 @@
+form {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+form input {
+  width: 100%;
+  padding: 10px;
+}
+
+textarea {
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 39px;
+}
+
+label {
+  margin: 10px 0;
+}
+
+.formBtns {
+  display: flex;
+  gap: 25px;
+}
+
+.formBtns button {
+  width: 100px;
+  padding: 10px;
+  border: none;
+  background-color: black;
+  color: antiquewhite;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+.form h2 {
+  margin: 10px auto 10px 31px;
+}

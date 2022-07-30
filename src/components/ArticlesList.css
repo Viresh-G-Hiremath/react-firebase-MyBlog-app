@@ -1,0 +1,33 @@
+.articles {
+  margin: 5px 0;
+  padding: 20px 0;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.507);
+  border: 1px solid lightgray;
+  display: flex;
+}
+.artHead {
+  margin-right: auto;
+}
+
+.artHead h3,
+.articles p {
+  margin: 10px 31px;
+}
+
+.art-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.art-btn button {
+  background-color: black;
+  color: aliceblue;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 20px;
+}
+
+.articleList a {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,37 @@
+nav {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  height: 85px;
+}
+.logo {
+  padding: 0 31px;
+  margin-right: auto;
+  font-size: x-large;
+}
+
+nav a {
+  color: black;
+  margin: 0 5px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+.active {
+  color: antiquewhite;
+  background-color: black;
+  border-radius: 5px;
+}
+@media screen and (max-width: 760px) {
+  nav {
+    display: block;
+    height: 180px;
+  }
+  .logo {
+    font-size: large;
+    margin: 0;
+  }
+  .media {
+    margin-left: 31px;
+  }
+}
